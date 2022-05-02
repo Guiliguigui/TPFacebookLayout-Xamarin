@@ -4,9 +4,9 @@
              x:Class="TP1Xamarin.MainPage">
     <ScrollView>
         <StackLayout>
-            <AbsoluteLayout BackgroundColor="DarkBlue" Padding="24" HeightRequest="200">
+            <AbsoluteLayout BackgroundColor="DarkBlue" HeightRequest="250">
                 <Image 
-                    AbsoluteLayout.LayoutBounds="0.05, 0.30, 70, 70"
+                    AbsoluteLayout.LayoutBounds="0.10, 0.30, 80, 80"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Rotation="-25"
                     Source="Fblike.png"/>
@@ -15,16 +15,16 @@
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Source="FacebookCircledLogo.png"/>
                 <Image 
-                    AbsoluteLayout.LayoutBounds="0.5, 0.15, 30, 30"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.2, 30, 30"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Source="Heart.png"/>
                 <Image 
-                    AbsoluteLayout.LayoutBounds="0.85, 0.15, 70, 70"
+                    AbsoluteLayout.LayoutBounds="0.8, 0.2, 80, 80"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Rotation="-25"
                     Source="Image.png"/>
                 <Image 
-                    AbsoluteLayout.LayoutBounds="0.95, 0.90, 70, 70"
+                    AbsoluteLayout.LayoutBounds="0.9, 0.8, 80, 80"
                     AbsoluteLayout.LayoutFlags="PositionProportional"
                     Rotation="-5"
                     Source="Image.png"/>
