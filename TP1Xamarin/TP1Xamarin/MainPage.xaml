@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP1Xamarin.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <AbsoluteLayout BackgroundColor="DarkBlue" Padding="24" HeightRequest="200">
+                <Image 
+                    AbsoluteLayout.LayoutBounds="0.05, 0.30, 70, 70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Rotation="-25"
+                    Source="Fblike.png"/>
+                <Image 
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, 100, 100"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Source="FacebookCircledLogo.png"/>
+                <Image 
+                    AbsoluteLayout.LayoutBounds="0.5, 0.15, 30, 30"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Source="Heart.png"/>
+                <Image 
+                    AbsoluteLayout.LayoutBounds="0.85, 0.15, 70, 70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Rotation="-25"
+                    Source="Image.png"/>
+                <Image 
+                    AbsoluteLayout.LayoutBounds="0.95, 0.90, 70, 70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    Rotation="-5"
+                    Source="Image.png"/>
+
+            </AbsoluteLayout>
+            <Label FontSize="16" HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="English"/>
+                            <Span Text=" • "/>
+                            <Span Text="Français"/>
+                            <Span Text=" • "/>
+                            <Span Text="More..." TextColor="DarkBlue"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <StackLayout Padding="40,30,40,30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="20">
+                <Entry Placeholder="Phone number or email address"/>
+                <Entry Placeholder="Password"/>
+                <Button Text="LOG IN" BackgroundColor="DarkBlue" TextColor="White" CornerRadius="5"/>
+                <Label TextColor="DarkBlue" Text="Forgotten password?" HorizontalTextAlignment="Center"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <BoxView HeightRequest="1" Color="Gray" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                    <Label Text="OR" HorizontalTextAlignment="Center"/>
+                    <BoxView HeightRequest="1" Color="Gray" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <Button Text="CREATE NEW FACEBOOK ACCOUNT" BackgroundColor="Green" TextColor="White" CornerRadius="5"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
